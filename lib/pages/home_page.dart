@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/drawer.dart';
 
@@ -20,6 +21,12 @@ class HomePage extends StatelessWidget {
           child: Text("Welcome to $days days of flutter by $name or " + name),
         ),
       ),
+      // ),
+    //  body: Container(
+    //     height: 100,
+    //     width: 100,
+    //     color: Colors.green,),
+       
       drawer: MyDrawer(),
     );
   }
