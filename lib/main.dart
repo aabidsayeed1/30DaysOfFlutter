@@ -5,6 +5,7 @@ import 'package:flutter_application_1/widgets/themes.dart';
 import 'pages/home_page.dart';
 
 void main() {
+  // ignore: prefer_const_constructors
   runApp(MyApp());
 }
 
