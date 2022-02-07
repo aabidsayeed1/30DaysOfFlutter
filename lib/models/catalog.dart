@@ -12,7 +12,13 @@ class CatalogModel{
   price: 99,
   image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISJ6msIu4AU9_M9ZnJVQVFmfuhfyJjEtbUm3ZK11_8IV9TV25-1uM5wHjiFNwKy99w0mR5Hk&usqp=CAc")
 ];
+// Get item by id
 
+static Item getById(int id) => items.firstWhere((element) => element.id ==id, orElse: null);
+
+// get item by position
+
+static Item getByPosition(int pos) =>items[pos];
 
 
 }
