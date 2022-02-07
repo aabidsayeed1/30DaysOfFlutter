@@ -2,6 +2,14 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 class CatalogModel{
+
+// static final CatModel = CatalogModel._internal();
+
+//    CatalogModel._internal();
+   
+//    factory  CatalogModel() => CatModel;
+
+
   static List<Item> items
 = [
   Item(
